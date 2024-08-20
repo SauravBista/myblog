@@ -18,6 +18,7 @@ def about():
     return render_template("about.html")
 
 
+
 @app.route("/post/<int:index>")
 def show_post(index):
     requested_post = None
